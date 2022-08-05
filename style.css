@@ -1,0 +1,27 @@
+.calcMain {
+    padding: 10% 25%;
+}
+.calcTop {
+    align-items: center;
+}
+.calcScreen {
+    border: 2px solid black;
+    padding: 2px 10px;
+    font-size: 10px;
+}
+.calcMiddle {
+    padding-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+}
+.operatorBtn {
+    display: grid;
+    max-width: 24%;
+}
+.numberBtn {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
